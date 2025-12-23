@@ -1,0 +1,20 @@
+version: "3"
+
+service:
+
+  laravel:
+  image: landisley1001
+  container_name:
+  n etwork:
+  - laravel
+
+  nginex:
+  image:
+  container_name:
+  network:
+  ports:
+    8080:80
+
+  network:
+  nome da rede
+  driver: /bridge -tipo de driver/
